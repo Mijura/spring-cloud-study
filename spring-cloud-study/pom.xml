@@ -51,5 +51,6 @@
   		<module>spring-cloud-study-discovery</module>
   		<module>client-service-1</module>
   		<module>client-service-2</module>
+  		<module>config-service</module>
   	</modules>
 </project>
