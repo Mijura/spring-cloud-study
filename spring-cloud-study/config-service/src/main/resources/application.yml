@@ -10,3 +10,8 @@ spring:
         git:
           uri: https://github.com/Mijura/spring-cloud-study-config
           cloneOnStart: true
+          
+          
+    bus:
+      enabled: true
+
