@@ -1,14 +1,14 @@
 package spring.cloud.study.app.controller;
 
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import spring.cloud.study.contract.StudentService;
+
 @RestController
-public class StudentController {
+public class StudentController implements StudentService {
 
 	int numberOfStudents = 0;
 	
-	@GetMapping("student/add")
 	public int addStudent() {
 		return ++numberOfStudents;
 	}
