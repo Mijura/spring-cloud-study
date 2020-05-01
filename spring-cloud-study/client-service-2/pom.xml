@@ -9,6 +9,11 @@
   
   <dependencies>
   	<dependency>
+    	<groupId>org.springframework.cloud</groupId>
+    	<artifactId>spring-cloud-starter-feign</artifactId>
+    	<version>1.4.7.RELEASE</version>
+	</dependency>
+  	<dependency>
 		<groupId>org.springframework.cloud</groupId>
 		<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 	</dependency>
@@ -23,6 +28,11 @@
 	<dependency>
 		<groupId>org.springframework.cloud</groupId>
 		<artifactId>spring-cloud-starter-bus-amqp</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>spring.cloud.study.app</groupId>
+		<artifactId>student-service</artifactId>
+		<version>${project.version}</version>
 	</dependency>
   </dependencies>
 
